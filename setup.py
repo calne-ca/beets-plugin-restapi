@@ -2,13 +2,13 @@ from setuptools import setup
 
 setup(
     name='beets-rest-api',
-    version='0.2.1',
+    version='0.2.3',
     description='beets plugin that provides a basic REST api',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Joscha Düringer',
     author_email='joscha.dueringer@beardbot.net',
-    url='https://github.com/calne-ca/beets-rest-api',
+    url='https://github.com/calne-ca/beets-plugin-restapi',
     license='MIT',
     platforms='ALL',
 
@@ -16,8 +16,8 @@ setup(
 
     install_requires=[
         'beets>=1.4.7',
-        'mediafile==0.6.0',
-        'pillow==8.1.0',
+        'mediafile>=0.9.0',
+        'pillow>=8.3.2',
         'flask'
     ],
 
@@ -30,8 +30,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9'
+        'Programming Language :: Python :: 3.7'
     ]
 )
